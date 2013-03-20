@@ -8,6 +8,7 @@ nutch-sample-plugins
 
         cd $NUTCH_ROOT/src/plugin/
         git clone git@github.com:fumimaron9/nutch-sample-plugins.git sample-plugins
+        cd sample-plugins/
 
         vim src/plugin/build.xml
         <<<<<
