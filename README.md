@@ -8,9 +8,10 @@ nutch-sample-plugins
 
         cd $NUTCH_ROOT/src/plugin/
         git clone git@github.com:fumimaron9/nutch-sample-plugins.git sample-plugins
-        cd sample-plugins/
 
-        vim src/plugin/build.xml
+        cd $NUTCH_ROOT/
+
+        vim src/plugin/sample-plugins/build.xml
         <<<<<
         <ant dir="sample-plugins" target="deploy"/>
         >>>>>
@@ -29,11 +30,11 @@ nutch-sample-plugins
         </property>
         >>>>>
 
-        cd $NUTCH_ROOT/
         ant
 
 * execute
 
+        cd $NUTCH_ROOT/
         ./runtime/local/bin/nutch plugin sample-plugins org.apache.nutch.helloworld.HelloWorld
 
 * test
