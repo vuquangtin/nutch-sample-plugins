@@ -11,7 +11,7 @@ nutch-sample-plugins
 
         cd $NUTCH_ROOT/
 
-        vim src/plugin/sample-plugins/build.xml
+        vim src/plugin/build.xml
         <<<<<
         <ant dir="sample-plugins" target="deploy"/>
         >>>>>
